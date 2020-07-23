@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from '.';
 
-const HomePage = () => {
+const HomePage = () => (
     <div className='homepage'>
         <h1>Welcome to my HomePage</h1>
         <div className='directory-menu'>
@@ -37,6 +37,6 @@ const HomePage = () => {
             </div>
         </div>
     </div>
-}
+)
 
 export default HomePage;
